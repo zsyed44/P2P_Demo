@@ -297,9 +297,9 @@ function main() {
   }
 
   // COMMENT OUT TO REMOVE HEARTBEAT MECHANISMS (for debugging) -------------------
-  setInterval(() => {
-    heartbeat.sendHeartbeats(routingTable, missedHeartbeats, removePeerFromRoutingTable);
-  }, HEARTBEAT_INTERVAL);
+  // setInterval(() => {
+  //   heartbeat.sendHeartbeats(routingTable, missedHeartbeats, removePeerFromRoutingTable);
+  // }, HEARTBEAT_INTERVAL);
   // ------------------------------------------------------------------------------
 }
 
